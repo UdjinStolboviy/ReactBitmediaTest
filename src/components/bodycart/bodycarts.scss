@@ -1,0 +1,14 @@
+.body-cart {
+  margin-top: 40px;
+  &__block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    @media (max-width: 1200px) {
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

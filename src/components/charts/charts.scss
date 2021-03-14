@@ -1,0 +1,52 @@
+.recharts-yAxis {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+
+  color: #cccccc;
+  line {
+    display: none;
+  }
+}
+
+.recharts-cartesian-grid-vertical {
+  line {
+    display: none;
+  }
+}
+
+.recharts-line-dots {
+  circle {
+    display: none;
+  }
+}
+
+.recharts-xAxis {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+
+  color: #cccccc;
+  .recharts-cartesian-axis-line {
+    color: rgba(241, 241, 241, 1);
+  }
+}
+
+.chars-text {
+  padding-left: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #1a1a1a;
+}
+
+body {
+  background: #fff;
+}

@@ -1,0 +1,114 @@
+/* Bookshelf list/table */
+.table {
+  display: flex;
+  flex-flow: column;
+
+  border-collapse: collapse;
+}
+.table-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+
+  background: #3a80ba;
+  .header-text {
+    display: flex;
+    text-align: ljustify;
+  }
+  .head-hr {
+    height: 1px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    transform: rotate(90deg);
+  }
+  .email {
+    padding-left: 100px;
+    padding-right: 130px;
+  }
+}
+
+.table-body {
+  background: #fbfbfb none repeat scroll 0 0;
+  display: flex;
+}
+
+.table-head-item {
+  padding-top: 12px;
+  text-align: center;
+
+  padding-left: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+.table-row {
+  .table-static {
+    width: 100px;
+    padding-right: 100px;
+  }
+  .linc-users {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.table-row:nth-child(even) {
+  background: #f1f1f1 none repeat scroll 0 0;
+}
+
+.table-item {
+  overflow: hidden;
+  padding: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #1a1a1a;
+}
+
+.table-head-item:not(:first-child):not(:last-child),
+.table-item:not(:first-child):not(:last-child) {
+  text-align: left;
+}
+
+.table-item:first-child {
+  width: 30px;
+}
+
+.table-item:nth-child(2) {
+  width: 150px;
+}
+
+.table-item:nth-child(3) {
+  width: 150px;
+}
+
+.table-item:nth-child(4) {
+  width: 300px;
+}
+
+.table-item:nth-child(5) {
+  width: 100px;
+}
+.table-item:nth-child(6) {
+  width: 0px;
+}
+
+.table-item:last-child {
+  width: 120px;
+  padding-right: 50px;
+}
+
+.table-row--active {
+  font-size: 30px;
+  color: #fff;
+  background: #4990e2;
+}
